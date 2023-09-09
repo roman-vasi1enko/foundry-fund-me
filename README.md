@@ -1,6 +1,13 @@
 # About
 This is a crowd-sourcing app. It allows the creation of a smart contract accepting contributions, keeping track of contributors and withdrawing funds. 
 
+Supports local, test, and mainnet Ethereum chains.
+
+Uses:
+- Chainlink data feed for price checking (to verify the transaction exceeds the min value).
+- Anvil for local blockchain.
+- Alchemy for test and mainnet blockchains.
+
 # Getting Started
 
 ## Requirements
@@ -14,7 +21,7 @@ This is a crowd-sourcing app. It allows the creation of a smart contract accepti
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-fund-me-f23
+git clone https://github.com/roman-vasi1enko/foundry-fund-me
 cd foundry-fund-me-f23
 forge build
 ```
